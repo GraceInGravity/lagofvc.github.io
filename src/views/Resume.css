@@ -1,0 +1,16 @@
+.split-view {
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: content; */
+    /* /*justify-content: center; */
+    align-items: center; 
+}
+
+.description {
+    /* flex: 2; */
+}
+
+.resume {
+    /* flex: 1; */
+    padding: 3rem;
+}

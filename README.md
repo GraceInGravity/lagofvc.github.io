@@ -1,2 +1,7 @@
-# lagofvc.github.io
-my page
+## My Personal Website.
+
+#### Created Using:  
+
+- ReactJS
+- Bulma
+- Firebase

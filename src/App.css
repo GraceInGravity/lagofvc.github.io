@@ -1,0 +1,131 @@
+.blueA {
+  color: #00aeef !important;
+}
+
+.blueO {
+  color: #1c6bab !important;
+}
+
+.purpleV {
+  color: #9b2d88 !important;
+}
+
+.purpleE {
+  color: #c52b81 !important;
+}
+
+.pinkI {
+  color: #ef2a7a !important;
+}
+
+.forceWhite {
+  color: white !important;
+}
+
+.forceBlack {
+  color: black !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/*
+FAB = 0a9fe0
+IO = 1c6dad
+VA = 912d89
+LE = ca2c80
+NT = ef2a7a
+*/
+
+/*
+fa to bio = background: linear-gradient(to bottom right, #0a9fe0, #1c6dad);
+*/
+.HomeGradient {
+  background: linear-gradient(to right, #0a9fe0, #6251a2);
+  /* background: linear-gradient(to bottom right,#4273be, #753f91); */
+  /* background: linear-gradient(to bottom right, #4273be, #cc2c7f); */
+  /*
+  blues: 1c6bab 
+  purple:415aa2
+  */ 
+}
+
+.ResumeGradient {
+  background: linear-gradient(to  right,#4273be, #753f91);
+  /* background: linear-gradient(to bottom right,#6a4696, #486fbb); */
+  /*
+  blues:  3486ce
+  4b6bb7
+  4273be
+  */
+}
+
+.PortfolioGradient {
+  background: linear-gradient(to  right, #9b2d88, #544898);
+  /* background: linear-gradient(to bottom right, #045597, #00aeef); */
+  /* background: linear-gradient(to bottom right, #1c6bab, #9b2d88); */
+}
+
+.ContactGradient {
+  background: linear-gradient(to right,#862d8b, #cc2c7f);
+}
+
+
+
+.pic {
+  background-image: url('./assets/images/hawth_bridge_seagul.jpg');
+}
+
+.App{
+  font-family: 'Exo';
+  font-size: 1.2em;
+  font-weight: 100;
+  color: white !important;
+  letter-spacing: 0.05em;
+  
+}
+
+.logo {
+  margin-left: -0.2em;
+  margin-right: -1.5em;
+}
+
+.view {
+  padding-left: 3em; 
+  padding-right: 3em; 
+  padding-bottom: 10em;
+
+}
+
+.mobile {
+  padding: 0em;
+}
+
+@media screen and (max-width: 500px) {
+  .view {
+    padding: 0em; 
+    padding-bottom: 10em;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .view {
+    padding: 5em; 
+    padding-bottom: 10em;
+  }
+}
+
+.parragraph { 
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin-bottom: 3rem;
+}
+
+ol {
+  margin: 3rem;
+  font-style: italic;
+}
